@@ -9,8 +9,8 @@ const Deployed = (props) => {
             </div>
             <div className="taskArea bg-white h-[28rem] md:px-4 p-4 md:p-0  rounded-b-xl">
                 {/* Added tasks will shows here */}
-                <TaskCard tasktitle="Task 5" taskdesc="Hello, this is the cards description. Just some random text" assignee="Pravin" button="Assign"/>
-                <TaskCard tasktitle="Task 6" taskdesc="Hello, this is the cards description. Just some random text" assignee="John Doe" button="Assign"/>
+                <TaskCard tasktitle="Task 5" taskdesc="Hello, this is the cards description. Just some random text" assignee="Pravin" button="Deployed"/>
+                <TaskCard tasktitle="Task 6" taskdesc="Hello, this is the cards description. Just some random text" assignee="John Doe" button="Deployed"/>
             </div>
         </div>
   )
